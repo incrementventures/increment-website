@@ -1,0 +1,4 @@
+baseURL = 'https://increment.ventures/'
+languageCode = 'en-us'
+title = 'Increment Ventures'
+theme = 'tailwind'
