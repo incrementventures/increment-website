@@ -7,8 +7,11 @@ Renders a menu for the given menu ID.
 @example: {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
 */}}
 
+
 {{- $page := .page }}
 {{- $menuID := .menuID }}
+
+
 
 {{- with index site.Menus $menuID }}
   <nav class="flex">
@@ -50,3 +53,4 @@ Renders a menu for the given menu ID.
       {{- end }}
   {{- end }}
 {{- end }}
+
