@@ -6,28 +6,21 @@
     <description>Recent content in Home on Increment Ventures</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 15 Mar 2023 11:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 15 May 2025 09:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Post 3</title>
-      <link>http://localhost:1313/posts/post-3/</link>
-      <pubDate>Wed, 15 Mar 2023 11:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/post-3/</guid>
-      <description>Occaecat aliqua consequat laborum ut ex aute aliqua culpa quis irure esse magna dolore quis. Proident fugiat labore eu laboris officia Lorem enim. Ipsum occaecat cillum ut tempor id sint aliqua incididunt nisi incididunt reprehenderit. Voluptate ad minim sint est aute aliquip esse occaecat tempor officia qui sunt. Aute ex ipsum id ut in est velit est laborum incididunt. Aliqua qui id do esse sunt eiusmod id deserunt eu nostrud aute sit ipsum.</description>
+      <title>GNAT - ESP32 Based Decent Display</title>
+      <link>http://localhost:1313/posts/decent-gnat/</link>
+      <pubDate>Thu, 15 May 2025 09:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/decent-gnat/</guid>
+      <description>I&amp;rsquo;ve had a Decent Espresso Machine for about five years now. These aren&amp;rsquo;t your regular espresso machine, but rather the type of thing that only those who have descended to the 8th level of espresso hell find themselves lusting after. I think the creator, who was once the head of the EFF sometimes describes this as the turing machine of espresso machins. It can basically simulate any other espresso machine, whether that be a normal pump machine extracting at a steady 12 bar or something with a variable pressure profile like a lever machine.</description>
     </item>
     <item>
-      <title>Post 2</title>
-      <link>http://localhost:1313/posts/post-2/</link>
-      <pubDate>Wed, 15 Feb 2023 10:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/post-2/</guid>
-      <description>post 2 post 2 post 2</description>
-    </item>
-    <item>
-      <title>Post 1</title>
-      <link>http://localhost:1313/posts/post-1/</link>
-      <pubDate>Sun, 15 Jan 2023 09:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/post-1/</guid>
-      <description>post 1 post 1 post 1</description>
+      <title>Organic Maps - Offline Open Street Maps for Everyone</title>
+      <link>http://localhost:1313/posts/organic-maps/</link>
+      <pubDate>Thu, 15 May 2025 09:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/organic-maps/</guid>
+      <description>I was recently looking for an alternative to the excellent, but increasingly expensive Gaia app for outdoor mapping. I use Gaia a lot when hiking and mountain biking as it provides very nice outdoor specific maps (with topo lines etc) that you can download to your device for offline use. Recently they were bought by Outside and their pricing has gotten more and more agressive. While it seemed like a fair deal at $40/yr, the latest price increase has brought it to $90/yr, which feels rich considering they are using data from Open Street Maps.</description>
     </item>
   </channel>
 </rss>

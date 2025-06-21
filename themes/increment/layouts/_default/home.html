@@ -1,7 +1,16 @@
 {{ define "main" }}
   {{ .Content }}
+
+  <div class="max-w-3/4">
   {{ range site.RegularPages }}
-    <h2 class="font-bold"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-    {{ .Summary }}
+  <div class="clear-both">
+    <h2 class="font-bold pb-2 text-xl">{{ .LinkTitle }}</h2>
+    {{ with .Resources.Get "thumbnail.png" }}
+    <img class="float-right size-48 m-2 rounded-lg" src="{{ .RelPermalink }}" alt="{{ $.Title }} thumbnail" />
+    {{ end }}
+    <div class="pb-2">{{ .Content }}</div>
+  </div>
   {{ end }}
-{{ end }}
+  </div>
+
+  {{ end }}

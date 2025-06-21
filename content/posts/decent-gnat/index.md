@@ -1,0 +1,16 @@
++++
+title = 'GNAT - ESP32 Based Decent Display'
+date = 2025-05-15T09:00:00-07:00
+draft = false
+tags = ['esp32']
++++
+
+I've had a [Decent Espresso Machine](https://decentespresso.com/) for about five years now. These aren't your regular espresso machine, but rather the type of thing that only those who have descended to the 8th level of espresso hell find themselves lusting after. I think the creator, who was once the head of the EFF sometimes describes this as the turing machine of espresso machins. It can basically simulate any other espresso machine, whether that be a normal pump machine extracting at a steady 12 bar or something with a variable pressure profile like a lever machine. Plus is does that all with precise temperature control, even allowing you to vary the temperature of the water during a shot.
+
+Anyways, it's a great espresso machine backed by an amazing founder and company, but they did make the unfornate (but understandable) decision to center most of the user interface around an Android tablet. Now I don't have anything against Android, a Pixel (or Nexus) has been my daily carry since they first came out, but anybody who has run any phone, Android or iOS, will tell you that using that OS as an applicace operating system is maybe not the best idea. While the Decent app works well on the stripped version of Android they ship with, it struggles with disconnecting with Bluetooth peripherals, not through any fault of the app, but just the Android bluetooth subsystem in general.
+
+I depend on that Bluetooth connection as I have my Decent connected to a Bluetooth scale so that it stops extracting at a precise weight automatically. This works great as long as it is connected, but if I pull a shot without noticing that the tablet has disconnected from the scale, then it won't stop and eventually overflow my cup if I don't notice. This, along with really not liking the look of a big 9" tablet in my kitchen that I really rarely interacted with, led me to create another solution.
+
+Since the Decent is largely Open Source, it was actually reasonably easy to build a standalone ESP32 device using the most awesome [LilyGo dev boards](https://lilygo.cc/products/t-display-s3). These are just widly capable devices for $25. You get two cores, lots of ram, bluetooth, Wifi AND a display. They even throw in a few buttons. I built the first version of GNAT (Gnat is Not A Tablet) in a week and loaded it onto one of these boards and I've been running it since error free. It is amazing how reliable software is when you strip down the operating system to the bare essential and get rid of virtually all multitasking. 
+
+While the learning curve to ESP32 development is a bit steep and I still find myself a bit out of my depth occasionally in C++, it is still incredibly easy making something both compelling and incredibly reliable. Check out the [GNAT Website](https://nicpottier.github.io/gnat/) for the latest versions (which you can sideload from your browser) or come contribute to the [Github Repo](https://github.com/nicpottier/gnat/). In the meantime I'm working on porting this to the new [LilyGo touch dev boards](https://lilygo.cc/products/t-display-s3-pro), more on that soon.
