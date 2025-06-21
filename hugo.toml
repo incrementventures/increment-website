@@ -1,4 +1,8 @@
 baseURL = 'https://increment.ventures/'
 languageCode = 'en-us'
 title = 'Increment Ventures'
-theme = 'tailwind'
+theme = "increment"
+
+[params.header]
+logo = "/img/horiz_logo.png"
+

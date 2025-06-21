@@ -1,62 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Increment Ventures</title>
-    <link>https://increment.ventures/</link>
-    <description>Recent content on Increment Ventures</description>
+    <title>Home on Increment Ventures</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in Home on Increment Ventures</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <managingEditor>user@example.com (Hugo Author)</managingEditor>
-    <webMaster>user@example.com (Hugo Author)</webMaster>
-    <atom:link href="https://increment.ventures/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 15 Mar 2023 11:00:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title></title>
-      <link>https://increment.ventures/search/_index.es/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>user@example.com (Hugo Author)</author>
-      <guid>https://increment.ventures/search/_index.es/</guid>
-      <description></description>
+      <title>Post 3</title>
+      <link>http://localhost:1313/posts/post-3/</link>
+      <pubDate>Wed, 15 Mar 2023 11:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/post-3/</guid>
+      <description>Occaecat aliqua consequat laborum ut ex aute aliqua culpa quis irure esse magna dolore quis. Proident fugiat labore eu laboris officia Lorem enim. Ipsum occaecat cillum ut tempor id sint aliqua incididunt nisi incididunt reprehenderit. Voluptate ad minim sint est aute aliquip esse occaecat tempor officia qui sunt. Aute ex ipsum id ut in est velit est laborum incididunt. Aliqua qui id do esse sunt eiusmod id deserunt eu nostrud aute sit ipsum.</description>
     </item>
     <item>
-      <title></title>
-      <link>https://increment.ventures/search/_index.fr/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>user@example.com (Hugo Author)</author>
-      <guid>https://increment.ventures/search/_index.fr/</guid>
-      <description></description>
+      <title>Post 2</title>
+      <link>http://localhost:1313/posts/post-2/</link>
+      <pubDate>Wed, 15 Feb 2023 10:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/post-2/</guid>
+      <description>post 2 post 2 post 2</description>
     </item>
     <item>
-      <title></title>
-      <link>https://increment.ventures/search/_index.hi/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>user@example.com (Hugo Author)</author>
-      <guid>https://increment.ventures/search/_index.hi/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://increment.ventures/search/_index.jp/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>user@example.com (Hugo Author)</author>
-      <guid>https://increment.ventures/search/_index.jp/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://increment.ventures/search/_index.pl/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>user@example.com (Hugo Author)</author>
-      <guid>https://increment.ventures/search/_index.pl/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://increment.ventures/search/_index.ru/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>user@example.com (Hugo Author)</author>
-      <guid>https://increment.ventures/search/_index.ru/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://increment.ventures/search/_index.zh-cn/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>user@example.com (Hugo Author)</author>
-      <guid>https://increment.ventures/search/_index.zh-cn/</guid>
-      <description></description>
+      <title>Post 1</title>
+      <link>http://localhost:1313/posts/post-1/</link>
+      <pubDate>Sun, 15 Jan 2023 09:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/post-1/</guid>
+      <description>post 1 post 1 post 1</description>
     </item>
   </channel>
 </rss>
